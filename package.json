@@ -17,9 +17,9 @@
     "nuxt": "^2.13.3",
     "nuxt-i18n": "^6.28.1",
     "regenerator-runtime": "^0.13.9",
-    "vue": "^2.7.0",
-    "vue-template-compiler": "^2.7.0",
-    "vue-server-renderer": "2.7.1"
+    "vue": "^2.7.1",
+    "vue-server-renderer": "^2.7.1",
+    "vue-template-compiler": "^2.7.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.18.6",
@@ -28,5 +28,8 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }

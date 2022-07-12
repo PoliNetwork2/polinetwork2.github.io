@@ -48,7 +48,9 @@ jobs:
       - name: 👨🏻‍💻 Install dependencies (5)
         run: (npm install vue@2.7.4) || true
         
-        
+      - name: 👨🏻‍💻 Install dependencies (6)
+        run: (vue-template-compiler@2.7.4) || true
+           
       - name: commit
         run: | 
           git config --global user.email "github_bot@github.com"

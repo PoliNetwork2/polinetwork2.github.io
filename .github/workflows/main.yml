@@ -33,8 +33,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: 👨🏻‍💻 Install dependencies (1)
-        run: npm install @babel/preset-env
 
       - name: 👨🏻‍💻 Install dependencies (2)
         run: npm install
